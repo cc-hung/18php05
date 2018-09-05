@@ -1,0 +1,39 @@
+
+.header{
+	height: 120px;
+	background-color: #00BFFF;
+	text-align: left;
+	line-height: 120px;
+	padding-left: 20px;	
+	margin-top: 3px
+}
+.nav{
+
+	background-color: #0174DF;
+	width: 29%;
+	float: left;
+	margin-right: 6px;
+	height: 300px;
+}
+.article{
+	float: left;
+	margin-right: 6px;
+	width: 50%;
+	height: 300px;
+	background-color: #A901DB;
+}
+.ads{
+	float: left;
+	width: 20%;
+	height: 300px;
+	background-color: #BDBDBD;
+}
+.footer{
+	height: 120px;
+	background-color: #00BFFF;
+	text-align: left;
+	line-height: 120px;
+	padding-left: 20px;
+	/*clear: both;*/
+	margin-top: 3px
+}

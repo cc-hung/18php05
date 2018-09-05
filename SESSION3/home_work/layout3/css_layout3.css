@@ -1,0 +1,48 @@
+.header{
+	height: 90px;
+	background-color: #BDBDBD;
+	text-align: center;
+	line-height: 100px;
+	margin-bottom: 3px;
+}
+.left_pane{
+	width: 20%;
+	background-color: #00BFFF;
+	height: 500px;
+	float: left;
+	text-align: center;
+	line-height: 500px;
+}
+.right_pane{
+	width: 20%;
+	background-color: #00BFFF;
+	height: 500px;
+	float: right;
+	text-align: center;
+	line-height: 500px;
+}
+.pre_body{
+	text-align: center;
+	line-height: 100px;
+	background-color: #A9E2F3;
+	height: 100px;
+}
+.body{
+	background-color: #2EFEF7;
+	height: 300px;	
+	text-align: center;
+	line-height: 100px;
+}
+.post_body{
+	background-color: #0B615E;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+.footer{
+	height: 90px;
+	background-color: #BDBDBD;
+	text-align: center;
+	line-height: 100px;
+	margin-top: 3px;
+}
