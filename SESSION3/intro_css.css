@@ -1,0 +1,18 @@
+.external-demo{
+	color: green;
+	
+	border-style: dashed;
+	font-family: new;
+	font-size: 50px;
+	text-decoration: underline overline;
+	text-transform: capitalize;
+	/*text-indent: 50px;
+	direction: ltr;*/
+	padding :10px 0px 10px ;
+	margin:50px;
+	 text-shadow: 3px 2px blue;
+}
+@font-face{
+	font-family: new;
+	src: url(chalala.ttf);
+}
