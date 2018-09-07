@@ -1,0 +1,38 @@
+/**{
+	margin: 0;
+
+}
+ul li{
+list-style-type:square;
+list-style-type:url();
+
+}
+ul li:nth-child(3){
+
+}*/
+a:link{
+	text-decoration: none;
+	color: red;
+}
+a:hover{
+	color: black;
+}
+a:visited{
+	color: yellow;
+}
+.nav{
+	border-style: solid;
+	width: 200px;
+	box-shadow: 5px 5px 5px  #0000cc;
+	
+}
+li{
+	border-style: solid;
+	border-color: red;
+	margin-top: 10px;
+	width: 100px;
+	list-style-type: none; 
+}
+ul li.act{
+	background-color: gray;
+}
