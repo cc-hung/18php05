@@ -10,22 +10,22 @@
 .nav{
 
 	background-color: #0174DF;
-	width: 29%;
+	width: 15%;
 	float: left;
 	margin-right: 6px;
-	height: 300px;
+	height: 410px;
 }
 .article{
 	float: left;
 	margin-right: 6px;
-	width: 50%;
-	height: 300px;
+	width: 69%;
+	height: 410px;
 	background-color: #A901DB;
 }
 .ads{
 	float: left;
-	width: 20%;
-	height: 300px;
+	width: 15%;
+	height: 410px;
 	background-color: #BDBDBD;
 }
 .footer{
