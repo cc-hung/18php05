@@ -137,6 +137,7 @@ p{
 	margin-left: 6px;
 	border-radius: 5px;
 	height: 120px;
+
 }
 .body{
 	/*clear: both;*/
@@ -146,5 +147,6 @@ p{
 	margin-top: 4px;
 	margin-right: 6px;
 	float: left;
+	display: block;
 }
 }
