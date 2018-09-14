@@ -10,7 +10,7 @@ list-style-type:url();
 ul li:nth-child(3){
 
 }*/
-a:link{
+/*a:link{
 	text-decoration: none;
 	color: red;
 }
@@ -19,7 +19,7 @@ a:hover{
 }
 a:visited{
 	color: yellow;
-}
+}*/
 .nav{
 	border-style: solid;
 	width: 200px;
