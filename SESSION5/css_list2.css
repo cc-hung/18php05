@@ -14,3 +14,28 @@ li{
 nav{
 	background-color: red;
 }
+a{
+	color: white;
+	text-decoration: none;
+}
+nav ul ul{
+	display: none;
+	position: absolute;
+	right: 123px;
+	top: 49px;
+}
+ul ul li {
+	float: none;
+}
+nav ul li:hover > ul{
+	display: block;
+	color: yellow;
+	/*float: left;*/
+
+}
+nav ul ul li{
+	color: red;
+	position: relative;
+	
+	/*float: none;*/
+}

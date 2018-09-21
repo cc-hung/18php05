@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>hw1</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script>
+		function checknumber() {
+			// body...
+			// console.log("huhuh");
+			var a = document.getElementById("so").value;
+			// console.log(a);
+			if(a == null) {console.log("nhap so a"); return;}
+			if(a%15 ==0) {console.log( a + " chia hết cho 15 ");alert(a + " chia hết cho 15 "); return;};
+			if(a%3 == 0) {console.log( a + " chia hết cho 3 "); alert(a + " chia hết cho 3 ");return;}
+			if(a%5==0)	 {console.log( a + " chia hết cho 5 ");	alert(a + " chia hết cho 5 ");return;}
+			console.log(a+" khong chia het cho 3,5,15");	
+			// document.getElementById("kq").innerHTML = "thay gia tri";
+		}
+	</script>
+	<p style="width: 900px">nhap so a: 
+		<input type="number" id ="so" min="0" max="20">
+	</p>
+	
+	<INPUT TYPE="button"   value="input" onClick="checknumber()">
+	<!-- <input type="text" id="kq"  value="sas" > -->
+	
+</body>
+</html>

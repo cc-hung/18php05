@@ -1,0 +1,16 @@
+table{
+	border-collapse: collapse;
+	/*border: solid;*/
+}
+
+table,th,td,tr{
+	border: 1px solid;
+}
+tfoot,thead{
+	background-color: #00FFFF;
+	color: #8258FA;
+}
+nth-child(2){
+	text-align: center;
+	color: red;
+}
