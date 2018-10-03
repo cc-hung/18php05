@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+
+	<script src="jquery-3.3.1.min.js"></script>
+
+	<link rel="stylesheet" href="css_slide.css">
+</head>
+<body>
+	<h1>my slide show</h1>
+
+	<div class="neoslideshow">
+		  <img src="img/1.jpg" width="500" height="260" />
+		  <img src="img/2.jpg" width="500" height="260" />
+		  <img src="img/3.jpg" width="500" height="260" />
+		  <img src="img/4.jpg" width="500" height="260" />
+		  <img src="img/5.jpg" width="500" height="260" />
+	</div>
+
+	<script>
+			
+		$('.neoslideshow img:gt(0)').hide();
+
+		$(function() {
+    		$('.neoslideshow img:gt(0)').hide();
+    			setInterval(function(){
+      				$('.neoslideshow :first-child').fadeOut()
+        				 .next('img').fadeIn()
+        				 .end().appendTo('.neoslideshow');}, 
+     						 2000);
+})
+	</script>
+	
+
+
+</body>
+</html>

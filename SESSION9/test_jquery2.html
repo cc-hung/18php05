@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<script src="jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="css_test_jquery2.css">
+</head>
+<body>
+	<h1>dat phong</h1>
+	<form action="#" id="my_form">
+		
+		<div>
+			<p>họ và tên</p>
+			<p class="err" id="name_err"></p>
+			<input type="text" id="ten">
+		</div>
+		<div>
+			<p>số người lớn:</p>
+			<p class="err" id="so_ng_lon_err"></p>
+			<input type="text" id="so_ng">
+		</div>
+		<div>
+			<p>số trẻ em:</p>
+			<p class="err" id="so_tre_em_err"></p>
+			<input type="text" id="so_tre_em">
+		</div>
+		<div>
+			<p>ngày đến:</p>
+			<p class="err" id="ngay_den_err"></p>
+			<input type="date" id="ng_den">
+		</div>
+		<div>
+			<p>ngày đi:</p>
+			<p class="err" id="ngay_di_err"></p>
+			<input type="date" id="ng_di">
+		</div>
+		<input type="submit" value="nhap">
+	</form>
+
+	<form action="#" id="result_form">
+		<h1>form ket qua</h1>
+		<div>
+			<p>họ và tên</p>
+			
+			<input type="text" id="ten_res" readonly>
+		</div>
+		<div>
+			<p>số người lớn:</p>
+			
+			<input type="text" id="so_ng_res" readonly>
+		</div>
+		<div>
+			<p>số trẻ em:</p>
+			
+			<input type="text" id="so_tre_em_res" readonly>
+		</div>
+		<div>
+			<p>ngày đến:</p>
+			
+			<input type="date" id="ngay_den_res" readonly>
+		</div>
+		<div>
+			<p>ngày đi:</p>
+			
+			<input type="date" id="ngay_di_res" readonly>
+		</div>
+	</form>
+
+	<script src="validate.js"></script>
+</body>
+</html>

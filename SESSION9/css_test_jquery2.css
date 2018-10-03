@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#my_form{
+	margin-left: 30px;
+	border: 1px solid red;
+	float: left;
+	width: 230px;
+	border-radius: 5px;
+}
+.err{
+	color: red;
+}
+#result_form{
+	margin-left: 30px;
+	border: 1px solid red;
+	float: left;
+	float: right;
+	width: 200px;
+	margin-right: 500px;
+	border-radius: 5px;
+}
