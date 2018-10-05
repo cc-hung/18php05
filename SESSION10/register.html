@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<script src="jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="css_register.css">
+</head>
+<body>
+
+	<h1>my form</h1>
+	<form action="" id="dang_ky" class="fr">
+		
+		<div>
+			<p class="tag">họ tên: </p>
+			<p id="name_err" style="color: red"></p>
+			<input type="text" id="ten">
+		</div>
+		<div>
+			<p class="tag">năm sinh: </p>
+			<p id="year_err" style="color: red"></p>
+			<input type="number" id="nam_sinh">
+		</div>
+		<div>
+			<p class="tag">giới tính: </p>
+			<select name="" id="gioi_tinh">
+				<p id="gender_err" style="color: red"></p>
+				<option value="nam">nam</option>
+				<option value="nu">nữ</option>
+			</select>
+		</div>
+		<div>
+			<p class="tag">sở thích:</p>
+			<p id="hobit_err" style="color: red"></p>
+			<textarea name="" id="so_thich" cols="30" rows="5"></textarea>
+		</div>
+
+		<input type="submit" value="nhập" >
+	</form>
+	
+</body>
+
+<script src="validate.js"></script>
+</html>
