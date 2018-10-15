@@ -1,0 +1,14 @@
+product1,product2,product3,
+procudt (id,name,price)
+var cart[];
+
+cart [id_pro][name] = name1
+cart [id_pro][name] = name1
+cart [id_pro][name] = name1
+
+
+khi click mua laij
+cart [id_pro][name] = name1
+cart [id_pro][name] = name1
+cart [id_pro][name] = name1
+

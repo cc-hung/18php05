@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+	<title></title>
+	<link rel="stylesheet" href="css_menu.css">
+	<script src="jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="SlickNav-master/dist/slicknav.css" >
+	<script src="SlickNav-master/dist/jquery.slicknav.min.js"></script>	
+</head>
+<body>
+	<h1>normal menu</h1>
+	<!-- <ul id="menu">
+		<li><a class="scroll44" href="#features">Feature11111s</a></li>
+		<li><a class="scro44ll" href="#usage">Usage Instructions</a></li>
+		<li><a class="scr44oll" href="#examples">Examples</a></li>
+		<li><a href="http://github.com">View on Github</a></li>
+	</ul>
+ -->
+<ul id="menu2">
+    <li>Parent 1
+        <ul>
+            <li><a href="#">item 3</a></li>
+            <li>Parent 3
+                <ul>
+                    <li><a href="#">item 8</a></li>
+                    <li><a href="#">item 9</a></li>
+                    <li><a href="#">item 10</a></li>
+                </ul>
+            </li>
+            <li><a href="#">item 4</a></li>
+        </ul>
+    </li>
+    <li><a href="#">item 1</a></li>
+    <li>non-link item</li>
+    <li>Parent 2
+        <ul>
+            <li><a href="#">item 5</a></li>
+            <li><a href="#">item 6</a></li>
+            <li><a href="#">item 7</a></li>
+        </ul>
+    </li>
+</ul>
+
+</body>
+
+<script type="text/javascript">
+
+// $(document).ready(function(){
+// 	$('#menu').slicknav();
+// });
+
+$(document).ready(function(){
+	
+$('#menu2').slicknav({
+	label: '',
+	duration: 1000,
+	easingOpen: "easeOutBounce", //available with jQuery UI
+	prependTo:'#demo2'
+});
+</script>
+</html>

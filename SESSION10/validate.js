@@ -1,4 +1,4 @@
-$('#dang_ky').submit(function function_name(argument) {
+$('#dang_ky').click(function function_name(argument) {
 	//alert("âs");
 	// body...
 	// alert("ádas");
@@ -20,7 +20,7 @@ $('#dang_ky').submit(function function_name(argument) {
 	 	{
         	$('#name_err').html(""); 
         	// alert(ho_ten);
-        	 localStorage.setItem("hoten", ho_ten);
+        	 // localStorage.setItem("hoten", ho_ten);
         	
     	}
 
@@ -29,7 +29,7 @@ $('#dang_ky').submit(function function_name(argument) {
 	 	else 
 	 	{
         	$('#year_err').html(""); 
-        	localStorage.setItem("namsinh", nam_sinh);
+        	// localStorage.setItem("namsinh", nam_sinh);
     	}
     	
     localStorage.setItem("gioitinh", gioi_tinh);
@@ -39,14 +39,14 @@ $('#dang_ky').submit(function function_name(argument) {
 	 	else 
 	 	{
         	$('#hobit_err').html(""); 
-        	localStorage.setItem("sothich", so_thich);
+        	// localStorage.setItem("sothich", so_thich);
     	}
 	
 	//window.location="nam.html";
 	//window.open("nam.html",'_blank'); 
 		
-	//window.location.assign("nam.html");
-//return false;
+	window.location.assign("nam.html");
+return false;
 	//window.location="https://www.w3schools.com";
 	// alert("dfjn");
 	//alert("âsas");
