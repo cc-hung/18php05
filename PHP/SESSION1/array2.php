@@ -50,20 +50,27 @@
 	};
 	echo("<hr>");
 	echo("cau 6:" . "<br>");
-	foreach ($sv as $sv1) {
+
+	foreach ($sv as $key => $sv1) {
 		# code...
-		if($sv1['year'] == "1997")
-
-		  $sv1['mail'] = "test@gmail.com";
-		var_dump($sv);
-		echo("<br>");
-
-	};
+		if($sv1['year'] == "1997")  $sv[$key]['mail'] = "test@gmail.com";
+	}
+	// cach duoi khong lay dckey nen thay doi no ko the vao mang dc
+	// no van bac dc su kien == nhung them vao ko the thay doi gia tri
 	// foreach ($sv as $sv1) {
 	// 	# code...
-	// 	echo($sv1["name"] . " - ");
-	// 	echo($sv1["year"] . " - ");
-	// 	echo($sv1["mail"] );
+	// 	if($sv1['year'] == "1997")
+
+	// 	  $sv1['mail'] = "test@gmail.com";
+	// 	var_dump($sv);
 	// 	echo("<br>");
+
 	// };
+	foreach ($sv as $sv1) {
+		# code...
+		echo($sv1["name"] . " - ");
+		echo($sv1["year"] . " - ");
+		echo($sv1["mail"] );
+		echo("<br>");
+	};
  ?>

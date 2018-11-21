@@ -1,0 +1,29 @@
+cau 1:
+
+select * from products inner join categories on categories.categoryid = products.categoryid
+where categories.categoryName = 'Guitars'
+
+cau 2:
+SELECT * FROM products WHERE products.dateAdded LIKE '2014-07-%' and products.listPrice > 300
+order BY products.listPrice
+
+cau3:
+SELECT * from products INNER JOIN categories on categories.categoryID = products.categoryID  WHERE products.productName like '%o%'  and categories.categoryName = 'Basses' 
+order BY products.listPrice
+
+cau 4:
+SELECT * FROM products,orders,orderitems,customers WHERE products.productID = orderitems.productID AND 
+orderitems.orderID = orders.orderID and orders.customerID = customers.customerID and customers.emailAddress LIKE '%@gmail.com'
+
+cau 5:
+
+SELECT * FROM products WHERE products.listPrice >= 300 and YEAR(products.dateAdded) ='2014'
+order by products.listPrice DESC
+LIMIT 4
+
+cau 6:
+SELECT addresses.city , customers.firstName , customers.lastName FROM products,orders,orderitems,customers, addresses WHERE products.productID = orderitems.productID AND 
+orderitems.orderID = orders.orderID and orders.customerID = customers.customerID and products.productName = 'Yamaha FG700S'
+
+SELECT addresses.city, products.productName FROM products,orders,orderitems,customers, addresses WHERE products.productID = orderitems.productID AND 
+orderitems.orderID = orders.orderID and orders.customerID = customers.customerID and products.productName = 'Yamaha FG700S'

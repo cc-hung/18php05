@@ -1,0 +1,23 @@
+dinh dang ngay thnag nam sql 2018-10-29
+
+-cau lenh insert :
+insert into  ten bang (danh sach truong) values (gia tri tuong ung truong);
+-cau lenh select:
+select danh sach truong from ten bang where dieu kien
+-cau lenh update
+update ten bang set ten truong = gia tri moi where dieu kien
+vd :
+ update product set name = ' sony' where name='apple';
+-cau lenh delete 
+delete from ten bang where  dieu kien
+vd :
+delete form product where name = 'sony';
+ 
+ quang he bang 
+  khoa chinh 
+  khoa ngoai 
+join table
+select danh sach truong from ten bang 1 inner join ten bang 2 onn ten bang 1.khoa ngoai = ten bang 2.khoa chinh where dieu kien
+
+vd:
+select * from product innerhoin product_category on product 
