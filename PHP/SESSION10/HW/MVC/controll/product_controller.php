@@ -19,8 +19,8 @@ class product
 	{
 		# code...
 		// alocatio 'view/add_product.php';
-		header('location :view/add_product.php');
-		// include'view/add_product.php';
+		//header('location :view/add_product.php');
+		 include'view/add_product.php';
 		//$this->loadView('view/add_product.php','asd');
 	}
 

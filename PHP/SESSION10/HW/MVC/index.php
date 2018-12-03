@@ -152,12 +152,6 @@
           <ul class="treeview-menu">
             <li><a href="index.php?controller=product&action=view_product"><i class="fa fa-circle-o"></i>VIEW PRODUCTS</a></li>
             <li><a href="index.php?controller=product&action=add_product"><i class="fa fa-circle-o fa fa-circle text-success"></i>ADD PRODUCTS</a></li>
-
-         <!--    <?php 
-              $handleRequest = new router();
-              $handleRequest->xu_ly();
-              
-            ?> -->
           </ul>
         </li>
         <!-- dong 1 -->
@@ -202,7 +196,11 @@
         ADD PRODUCT
         <small>it all starts here</small>
       </h1>
-      
+          <?php 
+              $handleRequest = new router();
+              $handleRequest->xu_ly();
+              
+            ?> 
     </section>
 
     <!-- Main content -->
